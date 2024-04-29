@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+}
+
+.header {
+    padding: 16px 0;
+}
+
+.container {
+    max-width: 1088px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-right: 5.76vw;
+    max-width: 423px;
+    width: 100%;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.nav li {
+    font-weight: 700;
+    color: #1C1B1B;
+}
+
+.logo {
+    margin-right: 370px;
+    /* 26vw сужает надпись*/
+}
+
+.header__icons-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: auto;
+}
+
+.introduction {
+    background-color: #F0EFEB;
+}
+
+.introduction__text-block {
+    padding: 90px 0;
+    max-width: 525px;
+}
+
+.introduction__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduction__title {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 42px;
+}
+
+.introduction__text {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 26px;
+}
+
+.introduction__button {
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 8px 23px;
+    border-radius: 100px;
+}
+
+.people-and-society {
+    background-color: #CCCCCC30;
+}
+
+.people-and-society__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+
+.people-and-society__text-block {
+    width: 532px;
+    height: 511px;
+    margin: auto;
+}
+
+.people-and-society__title {
+    font-weight: bold;
+    margin-top: 62px;
+}
+
+.people-and-society__link {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.people-and-society__text {
+    margin-top: 31px;
+    margin-bottom: 40px;
+}
+
+.culture-and-heritage {
+    background-color: #CCCCCC60;
+}
+
+.culture-and-heritage__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+
+.culture-and-heritage__text-block {
+    width: 532px;
+    height: 468px;
+    margin: auto;
+}
+
+.culture-and-heritage__text {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: right;
+    margin-top: 31px;
+    margin-bottom: 40px;
+}
+
+.culture-and-heritage__title {
+    font-weight: bold;
+    margin-top: 62px;
+    text-align: right;
+}
+
+.culture-and-heritage__link {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.power-and-politics {
+    background-color: #CCCCCC30;
+}
+
+.power-and-politics__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+
+.power-and-politics__text-block {
+    width: 532px;
+    height: 511px;
+    margin: auto;
+}
+
+.power-and-politics__title {
+    font-weight: bold;
+    margin-top: 62px;
+}
+
+.ppower-and-politics__link {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.power-and-politics__text {
+    margin-top: 31px;
+    margin-bottom: 40px;
+}
