@@ -118,15 +118,13 @@ nav {
     font-size: 36px;
     font-weight: bold;
     padding: 60px 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .best-sellers__text {
     font-size: 20px;
     max-width: 632px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .best-sellers__best {
@@ -149,11 +147,11 @@ nav {
 
 .price {
     font-size: 17px;
+    padding-bottom: 10px;
 }
 
 .best-sellers__chart-block {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .best-sellers__link {
