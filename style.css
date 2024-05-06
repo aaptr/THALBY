@@ -36,6 +36,7 @@ button {
 .header__container {
     display: flex;
     align-items: center;
+    width: 1440px;
 }
 
 nav {
@@ -259,4 +260,269 @@ nav {
 .power-and-politics__text {
     margin-top: 31px;
     margin-bottom: 40px;
+}
+
+.features {
+    width: 1280px;
+    padding-top: 190px;
+    margin: auto;
+}
+
+.features__text-block {
+    text-align: center;
+}
+
+.features__title {
+    font-size: 36px;
+}
+
+.features__wrapper {
+    width: 1088px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+    padding: 69px 0;
+    margin: auto;
+}
+
+.features__block {
+    width: 338px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    /* border: solid 1px; */
+    border-radius: 35px;
+}
+
+.features__block-title {
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 211px;
+    text-align: center;
+    padding: 26px 0;
+}
+
+#circle1 {
+    background: #21F7EC;
+}
+
+#circle2 {
+    background: #33D3BC;
+}
+
+#circle3 {
+    background: #18A5C6;
+}
+
+#circle4 {
+    background: #D38F62;
+}
+
+#circle5 {
+    background: #F94C43;
+}
+
+#circle6 {
+    background: #D399FF;
+}
+
+.voices {
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.voices__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+}
+
+.voices__title {
+    text-align: center;
+    max-width: 705px;
+    margin: auto;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.voices__container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 52px 0;
+}
+
+.voices__container__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 288px;
+}
+
+.voices__container__block__text {
+    padding: 35px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.citate {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.sign_name {
+    font-size: 19px;
+}
+
+.sign_country {
+    font-size: 20px;
+}
+
+.voices__link {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form {
+    width: 570px;
+    margin: auto;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form__text-block {
+    margin: auto;
+    max-width: 496px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subscribe_form {
+    width: 366px;
+    margin: auto;
+    padding-top: 26px;
+}
+
+.form__title {
+    font-size: 36px;
+}
+
+.form__text {
+    font-size: 17px;
+    padding: 9px 0;
+}
+
+.form__input-name {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.form__input-email {
+    /* display: flex;
+    justify-content: stretch; */
+    margin: auto;
+    padding: 18px 0;
+}
+
+.subscribe-button {
+    width: 115px;
+    height: 33px;
+    margin: auto;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 17px;
+}
+
+footer {
+    width: 100%;
+    height: 290px;
+    background-color: #020202;
+    margin-top: -400px;
+}
+
+.footer__container {
+    width: 1144px;
+    height: 224px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+}
+
+.footer__container_icons-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex: 714px;
+}
+
+.footer__container-icons {
+    padding-top: 25px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.footer__container-text {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: auto;
+    text-align: center;
+}
+
+.footer__container-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: 14px;
+    flex: 215px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-top: 12px;
+}
+
+.footer-link:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer__container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: 14px;
+    flex: 215px;
+}
+
+.background_element {
+    z-index: -1;
+    height: 480px;
+    position: relative;
+    left: opx;
+    top: -810px;
+    background: #F0F0F0;
 }
