@@ -29,6 +29,7 @@ button {
 
 .container {
     max-width: 1088px;
+    width: 100%;
     margin: auto;
     padding: 0 16px;
 }
@@ -36,7 +37,17 @@ button {
 .header__container {
     display: flex;
     align-items: center;
-    width: 1440px;
+    justify-content: space-between;
+    max-width: 1088px;
+    width: 100%;
+}
+
+.header_link {
+    text-decoration: none;
+}
+
+.header_link:visited {
+    color: #000000;
 }
 
 nav {
@@ -57,8 +68,7 @@ nav {
 }
 
 .logo {
-    margin-right: 370px;
-    /* 26vw сужает надпись*/
+    margin-right: 340px;
 }
 
 .header__icons-wrapper {
@@ -75,9 +85,12 @@ nav {
 .introduction__text-block {
     padding: 90px 0;
     max-width: 525px;
+    width: 100%;
 }
 
 .introduction__container {
+    max-width: 1088px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -101,10 +114,23 @@ nav {
     line-height: 20px;
     padding: 8px 23px;
     border-radius: 100px;
+    transition: all .3s linear;
+}
+
+.introduction__button:hover {
+    transform: scale(1.1);
+}
+
+.introduction__image {
+    transition: all .3s ease-out;
+}
+
+.introduction__image:hover {
+    transform: scale(1.1);
 }
 
 .best-sellers {
-    max-width: 1280px;
+    width: 100%;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -113,6 +139,9 @@ nav {
 
 .best-sellers__text-block {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .best-sellers__title {
@@ -125,6 +154,7 @@ nav {
 .best-sellers__text {
     font-size: 20px;
     max-width: 632px;
+    width: 100%;
     margin: auto;
 }
 
@@ -155,71 +185,101 @@ nav {
     margin: auto;
 }
 
+.best-sellers__chart-block img {
+    transition: all .3s ease-out;
+}
+
+.best-sellers__chart-block img:hover {
+    transform: scale(1.1);
+}
+
 .best-sellers__link {
     color: #000000;
     font-size: 17px;
     font-weight: bold;
+    transition: all .3s ease-out;
+}
+
+.best-sellers__link:hover {
+    color: #707070;
 }
 
 .people-and-society {
     background-color: #CCCCCC4D;
+    width: 100%;
+    margin: auto;
 }
 
 .people-and-society__container {
     display: flex;
-    justify-content: space-between;
-    padding: 90px 0;
+    justify-content: center;
+    gap: 50px;
+    padding: 90px 0px;
+    margin-top: 76px;
+    max-width: 1164px;
+    width: 100%;
 }
 
 .people-and-society__text-block {
-    width: 532px;
-    height: 511px;
-    margin: auto;
+    max-width: 532px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
 }
 
 .people-and-society__title {
     font-weight: bold;
-    margin-top: 62px;
 }
 
 .people-and-society__link {
     font-size: 17px;
     font-weight: bold;
     text-decoration: underline;
+    transition: all .3s ease-out;
 }
 
-.people-and-society__text {
-    margin-top: 31px;
-    margin-bottom: 40px;
+.people-and-society__link:visited {
+    color: #000000;
+}
+
+.people-and-society__link:hover {
+    color: #707070;
 }
 
 .culture-and-heritage {
     background-color: #CCCCCC99;
+    width: 100%;
+    margin: auto;
 }
 
 .culture-and-heritage__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
     padding: 90px 0;
 }
 
 .culture-and-heritage__text-block {
-    width: 532px;
-    height: 468px;
+    max-width: 532px;
+    width: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 40px;
 }
 
 .culture-and-heritage__text {
     font-size: 36px;
     font-weight: normal;
     text-align: right;
-    margin-top: 31px;
-    margin-bottom: 40px;
 }
 
 .culture-and-heritage__title {
     font-weight: bold;
-    margin-top: 62px;
     text-align: right;
 }
 
@@ -228,42 +288,61 @@ nav {
     font-weight: bold;
     text-decoration: underline;
     text-align: right;
+    transition: all .3s ease-out;
+}
+
+.culture-and-heritage__link:visited {
+    color: #000000;
+}
+
+.culture-and-heritage__link:hover {
+    color: #707070;
 }
 
 .power-and-politics {
     background-color: #CCCCCC4D;
+    width: 100%;
+    margin: auto;
 }
 
 .power-and-politics__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
     padding: 90px 0;
 }
 
 .power-and-politics__text-block {
-    width: 532px;
-    height: 511px;
-    margin: auto;
+    max-width: 532px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
 }
 
 .power-and-politics__title {
     font-weight: bold;
-    margin-top: 62px;
 }
 
-.ppower-and-politics__link {
+.power-and-politics__link {
     font-size: 17px;
     font-weight: bold;
     text-decoration: underline;
+    transition: all .3s ease-out;
 }
 
-.power-and-politics__text {
-    margin-top: 31px;
-    margin-bottom: 40px;
+.power-and-politics__link:visited {
+    color: #000000;
+}
+
+.power-and-politics__link:hover {
+    color: #707070;
 }
 
 .features {
-    width: 1280px;
+    width: 100%;
     padding-top: 190px;
     margin: auto;
 }
@@ -297,7 +376,6 @@ nav {
 .circle {
     width: 70px;
     height: 70px;
-    /* border: solid 1px; */
     border-radius: 35px;
 }
 
@@ -334,17 +412,30 @@ nav {
 }
 
 .voices {
-    max-width: 1280px;
     width: 100%;
+    height: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .voices__wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
     padding: 100px 0;
+}
+
+.voices::after {
+    content: '';
+    width: 100%;
+    height: 50%;
+    background-color: #F0F0F0;
+    display: flex;
+    position: absolute;
+    top: 42%;
+    z-index: -1;
 }
 
 .voices__title {
@@ -355,14 +446,8 @@ nav {
     font-weight: bold;
 }
 
-.voices__container {
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
-    padding: 52px 0;
-}
-
 .voices__container__block {
+    max-width: 288px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -402,9 +487,9 @@ nav {
 }
 
 .form {
-    width: 570px;
+    max-width: 570px;
     margin: auto;
-    padding-bottom: 0px;
+    padding: 80px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -455,18 +540,22 @@ nav {
     color: #FFFFFF;
     background: #000000;
     border-radius: 17px;
+    transition: all .3s linear;
+}
+
+.subscribe-button:hover {
+    transform: scale(1.1);
 }
 
 footer {
     width: 100%;
     height: 290px;
     background-color: #020202;
-    margin-top: -400px;
 }
 
 .footer__container {
     max-width: 1144px;
-    /* height: 224px; */
+    height: 224px;
     margin: auto;
     padding: 50px 0;
     display: flex;
@@ -523,14 +612,6 @@ footer {
     flex: 215px;
 }
 
-.background_element {
-    z-index: -1;
-    height: 480px;
-    position: relative;
-    left: opx;
-    top: -810px;
-    background: #F0F0F0;
-}
 
 @media only screen and (max-width: 1200px) {}
 
