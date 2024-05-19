@@ -391,24 +391,48 @@ nav {
     background: #21F7EC;
 }
 
+.circle1:hover {
+    box-shadow: 0px 10px 40px 5px #21F7EC;
+}
+
 .circle2 {
     background: #33D3BC;
+}
+
+.circle2:hover {
+    box-shadow: 0px 10px 40px 5px #33D3BC;
 }
 
 .circle3 {
     background: #18A5C6;
 }
 
+.circle3:hover {
+    box-shadow: 0px 10px 40px 5px #18A5C6;
+}
+
 .circle4 {
     background: #D38F62;
+}
+
+.circle4:hover {
+    box-shadow: 0px 10px 40px 5px #D38F62;
 }
 
 .circle5 {
     background: #F94C43;
 }
 
+.circle5:hover {
+    box-shadow: 0px 10px 40px 5px #F94C43;
+}
+
 .circle6 {
     background: #D399FF;
+}
+
+.circle6:hover {
+    box-shadow: 0px 10px 40px 5px #D399FF;
 }
 
 .voices {
