@@ -529,9 +529,12 @@ nav {
 }
 
 .subscribe_form {
-    width: 366px;
+    max-width: 366px;
+    width: 100%;
     margin: auto;
     padding-top: 26px;
+    display: flex;
+    flex-direction: column;
 }
 
 .form__title {
@@ -547,6 +550,7 @@ nav {
     display: flex;
     justify-content: space-between;
     gap: 60px;
+    width: 100%;
 }
 
 .form__input-email {
@@ -554,6 +558,40 @@ nav {
     justify-content: stretch; */
     margin: auto;
     padding: 18px 0;
+    width: 100%;
+}
+
+#Email {
+    width: 100%;
+    height: 39px;
+}
+
+#Email:focus {
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #979797;
+}
+
+#FirstName {
+    width: 100%;
+    height: 39px;
+}
+
+#FirstName:focus {
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #979797;
+}
+
+#LastName {
+    width: 100%;
+    height: 39px;
+}
+
+#LastName:focus {
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #979797;
 }
 
 .subscribe-button {
