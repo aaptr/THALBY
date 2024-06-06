@@ -11,6 +11,18 @@
 </head>
 <body>
     <header class="header">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="nav__list-burger">
+                <li><a href="/" class="header_link_burger">Shop</a></li>
+                <li><a href="/" class="header_link_burger">Collections</a></li>
+                <li><a href="/" class="header_link_burger">Try a Free Guide</a></li>
+                <li><a href="/" class="header_link_burger">Stories</a></li>
+            </ul>
+        </div>
         <div class="container header__container">
             <nav class="nav">
                 <ul class="nav__list">
@@ -111,12 +123,12 @@
                     </h2>
                     <a href="/" class="culture-and-heritage__link">Shop Society Guides</a>
                 </article>
-                <img class="culture-and-heritage__image" src="./img/MorrocanCultureAndHeritage.png" alt="Morrocan Culture And Heritage">
+                <img class="single-article-image" src="./img/MorrocanCultureAndHeritage.png" alt="Morrocan Culture And Heritage">
             </div>
         </section>
         <section class="power-and-politics">
             <div class="container power-and-politics__container">
-                <img class="power-and-politics__image" src="./img/GermanPowerAndPolitics.png" alt="German Power And Politics">
+                <img class="single-article-image" src="./img/GermanPowerAndPolitics.png" alt="German Power And Politics">
                 <article class="power-and-politics__text-block">
                     <h2 class="power-and-politics__title">Power and Politics</h2>
                     <h2 class="power-and-politics__text">Our guides to power take you behind the scenes to explore the power dynamics, 
@@ -158,40 +170,42 @@
                     <h3 class="features__block-title">Instant digital access</h3>
                 </div>
             </div>
-            <article class="voices">
-                <h2 class="voices__title">Each Thalby guide includes interviews with a range of fascinating voices, such as</h2>
-                <div class="voices__wrapper">
-                    <div class="voices__container__block">
-                        <img src="./img/CamilleMuller.png" alt="Camille Muller">
-                        <div class="voices__container__block__text">
-                            <h4 class="citate">"I don’t like things to be conventional. If it’s too nice, I bring disorder."</h4>
-                            <p class="sign_name">Camille Muller,</p>
-                            <p class="sign_country">Landscape Designer, France</p>
-                        </div>
-                        <a href="/" class="voices__link">Discover</a>
-                    </div>
-                    <div class="voices__container__block">
-                        <img src="./img/SoniaKowalewski.png" alt="Sonia Kowalewski">
-                        <div class="voices__container__block__text">
-                            <h4 class="citate">"Magic is not magic in the sense that I can just wish for anything."</h4>
-                            <p class="sign_name">Sonia Kowalewski,</p>
-                            <p class="sign_country">Witch, Germany</p>
-                        </div>
-                        <a href="/" class="voices__link">Discover</a>
-                    </div>
-                    <div class="voices__container__block">
-                        <img src="./img/LillyStoephasius.png" alt="Lilly Stoephasius">
-                        <div class="voices__container__block__text">
-                            <h4 class="citate">"I was eight years old when I entered my first competition. I won it."</h4>
-                            <p class="sign_name">Lilly Stoephasius,</p>
-                            <p class="sign_country">Skateboarder, Germany</p>
-                        </div>
-                        <a href="/" class="voices__link">Discover</a>
-                    </div>
-                </div>
-            </article>
-
         </section>
+        <article class="voices">
+            <h2 class="voices__title">Each Thalby guide includes interviews with a range of fascinating voices, such as</h2>
+            <div class="voices__wrapper">
+                <div class="voices__container__block">
+                    <img src="./img/CamilleMuller.png" alt="Camille Muller">
+                    <div class="voices__container__block__text">
+                        <h4 class="citate">"I don’t like things to be conventional. If it’s too nice, I bring disorder."</h4>
+                        <p class="sign_name">Camille Muller,</p>
+                        <p class="sign_country">Landscape Designer, France</p>
+                    </div>
+                    <a href="/" class="voices__link">Discover</a>
+                </div>
+                <div class="voices__container__block">
+                    <img src="./img/SoniaKowalewski.png" alt="Sonia Kowalewski">
+                    <div class="voices__container__block__text">
+                        <h4 class="citate">"Magic is not magic in the sense that I can just wish for anything."</h4>
+                        <p class="sign_name">Sonia Kowalewski,</p>
+                        <p class="sign_country">Witch, Germany</p>
+                    </div>
+                    <a href="/" class="voices__link">Discover</a>
+                </div>
+                <div class="voices__container__block">
+                    <img src="./img/LillyStoephasius.png" alt="Lilly Stoephasius">
+                    <div class="voices__container__block__text">
+                        <h4 class="citate">"I was eight years old when I entered my first competition. I won it."</h4>
+                        <p class="sign_name">Lilly Stoephasius,</p>
+                        <p class="sign_country">Skateboarder, Germany</p>
+                    </div>
+                    <a href="/" class="voices__link">Discover</a>
+                </div>
+            </div>
+            <div class="voices__background"></div>
+        </article>
+
+        
 
         <section class="form">
             <article class="form__text-block">
@@ -204,7 +218,7 @@
                     <input type="text" id="LastName" placeholder="Last Name">
                 </div>
                 <div class="form__input-email">
-                    <input type="text" id="Email" placeholder="Email" size="52">
+                    <input type="text" id="Email" placeholder="Email">
                 </div>
             </form>
             <button class="subscribe-button">
