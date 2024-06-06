@@ -579,34 +579,40 @@ nav {
 #Email {
     width: 100%;
     height: 39px;
+    padding-left: 8px;
 }
 
 #Email:focus {
     background-color: #e2e2e2;
     border-radius: 5px;
     box-shadow: 5px 5px 10px #979797;
+    outline: none
 }
 
 #FirstName {
     width: 100%;
     height: 39px;
+    padding-left: 8px;
 }
 
 #FirstName:focus {
     background-color: #e2e2e2;
     border-radius: 5px;
     box-shadow: 5px 5px 10px #979797;
+    outline: none
 }
 
 #LastName {
     width: 100%;
     height: 39px;
+    padding-left: 8px;
 }
 
 #LastName:focus {
     background-color: #e2e2e2;
     border-radius: 5px;
     box-shadow: 5px 5px 10px #979797;
+    outline: none
 }
 
 .subscribe-button {
@@ -736,7 +742,7 @@ footer {
     }
 
     .people-and-society__container {
-        padding: 30px 0;
+        padding: 30px 5px;
     }
 
     .people-and-society__text-block {
@@ -748,7 +754,7 @@ footer {
     }
 
     .culture-and-heritage__container {
-        padding: 30px 0;
+        padding: 30px 5px;
     }
 
     .culture-and-heritage__text-block {
@@ -760,7 +766,7 @@ footer {
     }
 
     .power-and-politics__container {
-        padding: 30px 0;
+        padding: 30px 5px;
     }
 
     .power-and-politics__text-block {
@@ -776,7 +782,7 @@ footer {
     }
 
     .features__wrapper {
-        padding: 50px 0;
+        padding: 50px 5px;
     }
 
     .features__block {
@@ -796,7 +802,7 @@ footer {
     }
 
     .voices__wrapper {
-        padding: 80px 0;
+        padding: 80px 5px;
     }
 }
 
@@ -828,7 +834,7 @@ footer {
     }
 
     .best-sellers__title {
-        padding: 20px 0;
+        padding: 20px 5px;
         font-size: 30px;
     }
 
@@ -878,11 +884,11 @@ footer {
         font-size: 22px;
         max-width: 150px;
         width: 100%;
-        padding: 16px 0;
+        padding: 16px 5px;
     }
 
     .voices__wrapper {
-        padding: 60px 0;
+        padding: 60px 5px;
     }
 
     .voices__title {
@@ -927,7 +933,7 @@ footer {
     .menu__btn {
         display: flex;
         align-items: center;
-        position: fixed;
+        /* position: fixed; */
         top: 25px;
         left: 20px;
         width: 26px;
